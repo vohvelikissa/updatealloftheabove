@@ -3,4 +3,5 @@ updatealloftheabove() {
 	updateintellij
 	plsupdatemyneovim
 	updatediscord
+	updatetorbrowser
 }
