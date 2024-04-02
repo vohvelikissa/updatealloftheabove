@@ -5,3 +5,8 @@ updatealloftheabove() {
 	updatediscord
 	updatetorbrowser
 }
+updateandshutdown() {
+	sudo nala upgrade
+	updatealloftheabove
+	shutdown 0
+}
