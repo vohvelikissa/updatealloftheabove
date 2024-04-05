@@ -1,12 +1,12 @@
 updatealloftheabove() {
 	cd
+	sudo nala upgrade
 	updateintellij
 	plsupdatemyneovim
 	updatediscord
 	updatetorbrowser
 }
 updateandshutdown() {
-	sudo nala upgrade
 	updatealloftheabove
 	shutdown 0
 }
